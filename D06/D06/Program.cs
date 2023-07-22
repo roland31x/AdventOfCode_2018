@@ -19,7 +19,7 @@ namespace D06
     }
     public class Map
     {
-        int maxsearchX = 1500;
+        int maxsearchX = 1500; // increase these if you don't get right answer
         int maxsearchY = 1500;
         List<Point> POI = new List<Point>();
         bool[] inf;
