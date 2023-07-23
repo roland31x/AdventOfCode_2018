@@ -6,7 +6,7 @@ namespace D11
     {
         static void Main(string[] args)
         {
-            int SN = 7403;
+            int SN = 7403; // your input
             FuelGrid map = new FuelGrid(SN);
             
             Tuple<int, int, int> P1Res = map.GetBestSquare(3, out _);
