@@ -29,9 +29,6 @@
                 }
             }
 
-
-            int repeatgen = -1;
-
             for(int times = 0; times < 200; times++)
             {
                 int[] newgen = new int[currentgen.Length];
