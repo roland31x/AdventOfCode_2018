@@ -25,6 +25,7 @@ namespace D10
                     points.Add(new MovingPoint(x, y, dx, dy));
                 }
             }
+
             int minY = 0, minX = 0, maxY = 0, maxX = 0;
             int mindist = int.MaxValue;
             bool found = false;
@@ -80,7 +81,6 @@ namespace D10
                     maxX = p.Pos[0];
 
             }
-
 
             Console.WriteLine("Part 1 solution:");
             for (int i = minY; i <= maxY; i++)
