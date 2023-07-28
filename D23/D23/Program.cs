@@ -58,6 +58,7 @@ namespace D23
                 if (b.coords.DistTo(best.coords) <= best.radius)
                     count++;
             }
+            Console.WriteLine("Part 1 solution:");
             Console.WriteLine(count);
         }
         public void Part2()
